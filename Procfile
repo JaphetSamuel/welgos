@@ -1,1 +1,1 @@
-web: gunicorn welgos.wsgi --log-file
+web: gunicorn welgos.wsgi --log-file -
