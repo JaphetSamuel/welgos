@@ -1,0 +1,42 @@
+{% extends 'index.html' %}
+
+{% block main %}
+    <main class="container">
+    <div style="width: 100vw">
+        <h1 class="center">Welgos</h1>
+    </div>
+    <div class="row mt-5">
+        <div class="col-4 hidden-xs"></div>
+        <div class="col-4 mt-5">
+            {% if erreur %}
+                <div class="alert alert-danger">
+                    {{ erreur }} erruer
+                </div>
+            {% endif %}
+            <form action="#" method="post">
+                <fieldset>
+            <legend>Inscription</legend>
+            <div class="input-group mt-1">
+                <label for="pseudo" class="mr-2">Pseudonyme </label>
+                <input type="text" name="pseudo" id="pseudo" class="custom-control form-control">
+            </div>
+            <div class="input-group mt-1">
+                <label for="email" class="mr-2">Email </label>
+                <input type="email" name="email" id="email" class="custom-control form-control">
+            </div>
+            <div class="input-group mt-1">
+                <label for="pass1" class="mr-2">Mot de passe</label>
+                <input type="password" name="pass1" id="pass1" class="custom-control form-control">
+            </div>
+            <div class="input-group mt-1">
+                <label for="pass2" class="mr-2">Vérification du mot de passe</label>
+                <input type="password" name="pass2" id="pass2" class="custom-control form-control">
+            </div>
+        </fieldset>
+            </form>
+            <input type="submit" value="s'incrire" class="btn btn-blue center mt-2">
+        </div>
+    </div>
+
+    </main>
+{% endblock %}

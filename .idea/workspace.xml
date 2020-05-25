@@ -2,9 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c39b632-4666-4b52-b7c8-2876bdc2c5a5" name="Default" comment="deuxieme comit">
-      <change afterPath="$PROJECT_DIR$/agenda/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agenda/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/directives.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/addons/directives.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.lite.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/modules/animations-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/modules/animations-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/font/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/masonry.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/addons/rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-animate.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-aria.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-aria.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-cookies.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-cookies.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-csp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-loader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-loader.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-message-format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-message-format.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-message-format.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-messages.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-messages.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-mocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-parse-ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-parse-ext.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-parse-ext.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-resource.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-resource.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-route.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-sanitize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-sanitize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-sanitize.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-touch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-touch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular-touch.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/angular.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/brands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/brands.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/errors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/fontawesome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.4.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/mdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/bs-custom-file-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/enhanced-modals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/forms-free.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/scrolling-navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/velocity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/modules/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/regular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/regular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/solid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/solid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/v4-shims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/v4-shims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/version.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/welgos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/welgos/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/welgos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/welgos/urls.py" afterDir="false" />
@@ -21,40 +154,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/welgos/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-              <folding>
-                <element signature="e#307#316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agenda/urls.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agenda/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agenda/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="100">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -62,23 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agenda/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/welgos/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="263">
+              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -86,25 +178,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agenda/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            <state relative-caret-position="194">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/registration/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="20" column="97" lean-forward="true" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+              <folding>
+                <element signature="e#83#103#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -115,6 +226,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -127,12 +239,16 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/welgos/settings.py" />
-        <option value="$PROJECT_DIR$/agenda/urls.py" />
-        <option value="$PROJECT_DIR$/agenda/models.py" />
         <option value="$PROJECT_DIR$/agenda/admin.py" />
         <option value="$PROJECT_DIR$/agenda/api.py" />
+        <option value="$PROJECT_DIR$/welgos/settings.py" />
+        <option value="$PROJECT_DIR$/agenda/models.py" />
         <option value="$PROJECT_DIR$/welgos/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/agenda/urls.py" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/agenda/views.py" />
+        <option value="$PROJECT_DIR$/templates/registration/signup.html" />
       </list>
     </option>
   </component>
@@ -157,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,19 +289,47 @@
             <path>
               <item name="welgos" type="b2602c69:ProjectViewProjectNode" />
               <item name="welgos" type="462c0819:PsiDirectoryNode" />
+              <item name="agenda" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welgos" type="462c0819:PsiDirectoryNode" />
+              <item name="medias" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welgos" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welgos" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welgos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welgos" type="462c0819:PsiDirectoryNode" />
               <item name="welgos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\devspace\python\welgos\templates" />
+      <recent name="E:\devspace\python\welgos\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,26 +400,26 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32909605" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32768363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29943502" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32909605" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32768363" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.2881356" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26553673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1328859" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="2" visible="true" weight="0.3997175" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -334,7 +479,99 @@
     <MESSAGE value="bug avec whitenoise dans settings" />
     <option name="LAST_COMMIT_MESSAGE" value="bug avec whitenoise dans settings" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/welgos/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="132" column="23" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welgos/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/welgos/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -346,7 +583,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agenda/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/welgos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -432,29 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/welgos/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="e#307#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agenda/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agenda/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/agenda/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -467,7 +687,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agenda/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="100">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
@@ -475,12 +695,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/welgos/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="132" column="23" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="59" column="65" lean-forward="true" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/welgos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="263">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agenda/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="97" lean-forward="true" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+          <folding>
+            <element signature="e#83#103#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
