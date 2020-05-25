@@ -4,14 +4,14 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
-class Compte(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, default=1)
-    img_url = models.ImageField(upload_to="profile/", blank=True)
-    suivies = models.ManyToManyField('Organisation', blank=True)
-
-
-    def __str__(self):
-        return self.user.username
+# class Compte(models.Model):
+#     user = models.OneToOneField(User, on_delete=models.CASCADE, default=1)
+#     img_url = models.ImageField(upload_to="profile/", blank=True)
+#     suivies = models.ManyToManyField('Organisation', blank=True)
+#
+#
+#     def __str__(self):
+#         return self.user.username
 
 
 class Organisation(models.Model):
@@ -22,6 +22,7 @@ class Organisation(models.Model):
     contact = models.CharField(max_length=25)
     siteweb = models.CharField(max_length=300, blank=True)
     facebook = models.CharField(max_length=300, blank=True)
+    suiveur = models.ManyToManyField(User, blank=True, related_name='suiveur')
 
 
     def __str__(self):
@@ -58,7 +59,7 @@ class Event(models.Model):
     lieu = models.CharField(max_length=100)
     horodage = models.DateTimeField()
     affiche_url = models.ImageField(upload_to=upload, blank=True)
-    reservations = models.ManyToManyField(Compte, blank=True)
+    reservations = models.ManyToManyField(User, blank=True)
 
     def __str__(self):
         return f"${self.theme} par ${self.organisateur} "

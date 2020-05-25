@@ -36,7 +36,6 @@ class Inscription(TemplateView, ProcessFormView):
             u = User(username=pseudo, email=email)
             u.set_password(pass2)
             u.save()
-            Compte(user=u).save()
             user = authenticate(username=u.username, password=pass2)
             if user is not None:
                 return redirect('home')
