@@ -1,0 +1,8 @@
+<div class="navbar-nav nav">
+    <span class="navbar-brand">Welgos</span>
+    <ul class="navbar-right nav-link">
+        {% if request.user.is_authenticated %}
+            <li>{{ request.user.username }}</li>
+        {% endif %}
+    </ul>
+</div>

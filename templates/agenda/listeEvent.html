@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block main %}
+    {% include 'compose/bar.html' %}
+    <main class="container">
+        {% for object in object_list %}
+            <div>
+            {{ object.theme }}
+                <img src="{{ MEDIA_URL }}{{ object.affiche_url }}" alt="pas d'image">
+            </div>
+
+    {% endfor %}
+    </main>
+{% endblock %}

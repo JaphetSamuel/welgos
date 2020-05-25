@@ -13,7 +13,8 @@
                     {{ erreur }} erruer
                 </div>
             {% endif %}
-            <form action="#" method="post">
+            <form action="{% url 'signup' %}" method="post">
+            {% csrf_token %}
                 <fieldset>
             <legend>Inscription</legend>
             <div class="input-group mt-1">
@@ -33,8 +34,10 @@
                 <input type="password" name="pass2" id="pass2" class="custom-control form-control">
             </div>
         </fieldset>
+
+        <input type="submit" value="s'incrire" class="btn btn-blue center mt-2">
             </form>
-            <input type="submit" value="s'incrire" class="btn btn-blue center mt-2">
+            
         </div>
     </div>
 
