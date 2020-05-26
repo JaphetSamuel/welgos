@@ -22,7 +22,7 @@ from django.contrib.auth import views as authviews
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('rest/', include('rest_framework.urls')),
-    #path('accounts/login/',authviews.LoginView.as_view(template_name='registration/login.html'), name='login'),
+    path('api', include('agenda.api')),
     path('accounts/',include('django.contrib.auth.urls')),
     path('', include('agenda.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
