@@ -45,3 +45,8 @@ class Inscription(TemplateView, ProcessFormView):
 class EventListView(ListView):
     model = Event
     template_name = 'agenda/listeEvent.html'
+
+
+class OrganisationListView(ListView):
+    model = Organisation
+    template_name = 'agenda/listeOrganisation.html'

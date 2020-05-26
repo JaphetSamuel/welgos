@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+{% block main %}
+    <div>
+        {% for object in object_list %}
+            {{ object.user.username }}
+            <br>
+            <img src="{{ MEDIA_URL }}{{ object.img_url }}" alt="pas d'image">
+        {% endfor %}
+
+    </div>
+{% endblock %}
