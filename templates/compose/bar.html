@@ -3,6 +3,9 @@
     <div class="navbar-right">
         {% if request.user.is_authenticated %}
             <a>{{ request.user.username }}</a>
+            <span class="ml-3">
+            <a href="{% url 'new-event' %}">Créer un nouvel evennemnt</a>
+            </span>
         {% endif %}
     </div>
     <a href="{% url 'list-org' %}">liste des Organisations</a>

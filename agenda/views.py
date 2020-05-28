@@ -1,9 +1,10 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.views import LoginView, TemplateView
 from django.contrib.auth import authenticate
-from django.views.generic import  ListView, DetailView
+from django.views.generic import  ListView, DetailView, CreateView
 from django.views.generic.edit import ProcessFormView
 from .models import *
+import datetime
 
 # Create your views here.
 
@@ -45,8 +46,15 @@ class Inscription(TemplateView, ProcessFormView):
 class EventListView(ListView):
     model = Event
     template_name = 'agenda/listeEvent.html'
+    queryset = Event.objects.filter(horodage__gte=datetime.date.today())
 
 
 class OrganisationListView(ListView):
     model = Organisation
     template_name = 'agenda/listeOrganisation.html'
+
+
+class EventCreateview(CreateView):
+    model = Event
+    fields = ['theme', 'lieu', 'horodage']
+    template_name = 'agenda/create_event.html'

@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block main %}
+    <div class="container">
+        <div class="d-flex justify-content-center">Nouvel Evennement</div>
+        <div>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" value="créer">
+            </form>
+        </div>
+    </div>
+{% endblock %}

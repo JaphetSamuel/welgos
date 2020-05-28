@@ -58,9 +58,9 @@ class Event(models.Model):
     theme = models.CharField(max_length=500, blank=True)
     lieu = models.CharField(max_length=100)
     horodage = models.DateTimeField()
-    affiche_url = models.ImageField(upload_to=upload, blank=True)
+    affiche_url = models.ImageField(upload_to='events/', blank=True)
     reservations = models.ManyToManyField(User, blank=True)
 
     def __str__(self):
-        return f"${self.theme} par ${self.organisateur} "
+        return f"{self.theme} par {self.organisateur} "
 
