@@ -27,7 +27,7 @@ MarkupSafe==1.1.1
 matplotlib==3.2.1
 mccabe==0.6.1
 numpy==1.18.4
-Pillow==7.1.2
+Pillow==9.0.0
 pipenv==2018.11.26
 psycopg2==2.8.5
 psycopg2-binary==2.8.5
